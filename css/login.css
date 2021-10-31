@@ -1,0 +1,112 @@
+/* body{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	font-family: 'Jost', sans-serif;
+	background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
+} */
+.main{
+    /* margin: 0;
+	padding: 0;
+	min-height: 100vh;
+	font-family: 'Jost', sans-serif;
+	background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e); */
+    /* display: flex; */
+    justify-content: center;
+	align-items: center;
+	/* position: absolute; */
+    margin: auto;
+	width: 350px;
+	height: 520px;
+    background-color: #170229;
+	background: rgb(0, 0, 0);
+	overflow: hidden;
+	background: url("1.jpg") no-repeat center/ cover;
+	border-radius: 10px;
+	/* box-shadow: 2px 10px 25px rgb(22, 35, 109); */
+	filter: hue-rotate(300deg);
+	/* filter: brightness(100%); */
+}
+/* .main img{
+	filter: brightness(100);
+} */
+#chk{
+	display: none;
+}
+/* .bacckk img{
+	filter:brightness(70%)
+} */
+.signup{
+	position: relative;
+	width:100%;
+	height: 100%;
+    justify-content: center;
+	margin-bottom: 30px;
+}
+.main label{
+	color: #ffffff;
+	font-size: 2.3em;
+	justify-content: center;
+	display: flex;
+	margin: 30px;
+	font-weight: bold;
+	cursor: pointer;
+	transition: .5s ease-in-out;
+}
+.main input{
+	width: 60%;
+	height: 30px;
+	background: #e0dede;
+	justify-content: center;
+	display: flex;
+	margin: 20px auto;
+	padding: 10px;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+}
+.main button{
+	width: 60%;
+	height: 40px;
+	margin: 10px auto;
+	justify-content: center;
+	display: block;
+	color: #fff;
+	background: #0cb914;
+	font-size: 1em;
+	font-weight: bold;
+	margin-top: 20px;
+	outline: none;
+	border: none;
+	border-radius: 5px;
+	transition: .2s ease-in;
+	cursor: pointer;
+}
+.main button:hover{
+	background: #181717;
+	color: white;
+}
+.login{
+	height: 480px;
+	background: #eee;
+	border-radius: 60% / 10%;
+	transform: translateY(-130px);
+	transition: .8s ease-in-out;
+}
+.login label{
+	color: rgb(1, 2, 1);
+	transform: scale(.6);
+}
+
+#chk:checked ~ .login{
+	transform: translateY(-500px);
+}
+#chk:checked ~ .login label{
+	transform: scale(1);	
+}
+#chk:checked ~ .signup label{
+	transform: scale(.6);
+}

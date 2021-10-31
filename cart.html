@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Basic -->
+
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Site Metas -->
+    <title>BESTBY</title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="images/favicon.png" type="images/png" />
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css" />
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+<!-- Start Main Top -->
+<header class="main-header">
+  <!-- Start Navigation -->
+  <nav
+    class="
+      navbar navbar-expand-lg navbar-light
+      bg-light
+      navbar-default
+      bootsnav
+    "
+  >
+    <div class="container">
+      <!-- Start Header Navigation -->
+      <div class="navbar-header">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbar-menu"
+          aria-controls="navbars-rs-food"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fa fa-bars"></i>
+        </button>
+        <a class="navbar-brand" href="index.html"
+          ><img src="images/logo.png" class="logo" alt=""
+        /></a>
+      </div>
+      <!-- End Header Navigation -->
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="navbar-menu">
+        <ul
+          class="nav navbar-nav ml-auto"
+          data-in="fadeInDown"
+          data-out="fadeOutUp"
+        >
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About Us</a>
+          </li>
+          <li class="dropdown">
+            <a
+              href="#"
+              class="nav-link dropdown-toggle arrow"
+              data-toggle="dropdown"
+              >Shop </a>
+            <ul class="dropdown-menu" id="shop">
+              <li><a href="shop.html">SHOP</a></li>
+              <li><a href="shop-detail.html">SHOP DETAILS</a></li>
+              <li><a href="cart.html">CART</a></li>
+              <li><a href="checkout.html">CHECKOUT</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a
+              href="#"
+              class="nav-link dropdown-toggle arrow"
+              data-toggle="dropdown"
+              >My Account</a>
+            <ul class="dropdown-menu" id="acc">
+              <li><a href="my-account.html">CUSTOMER</a></li>
+              <li><a href="retail.html">RETAILER</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
+
+      <!-- Start Atribute Navigation -->
+      <div class="attr-nav" style="padding-right: 30px;font-weight: 700; color:#b0b435">
+        <ul>
+          <li class="side-menu">
+            <a href="cart.html">
+              <i class="fa fa-shopping-bag" style="color: #b0b435;"></i>
+              <p style="color: #b0b435">MY CART</p>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <ul
+          class="nav navbar-nav ml-auto"
+          data-in="fadeInDown"
+          data-out="fadeOutUp"
+        >
+        <li class="nav-item">
+          <a class="nav-link" href="login.html" >LOGIN/SIGN UP</a>
+        </li>
+      </ul>
+      <!-- End Atribute Navigation -->
+    </div>
+  </nav>
+  <!-- End Navigation -->
+</header>
+<!-- End Main Top -->
+
+    <!-- Start All Title Box -->
+    <div class="all-title-box">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h2>CART</h2>
+            <ul class="breadcrumb">
+              <li class="breadcrumb-item"><a href="#">Shop</a></li>
+              <li class="breadcrumb-item active">Cart</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End All Title Box -->
+
+    <!-- Start Cart  -->
+    <div class="cart-box-main">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="table-main table-responsive">
+              <table class="table" style="background-color: black; color: white;">
+                <thead>
+                  <tr>
+                    <th> </th>
+                    <th>PRODUCT NAME</th>
+                    <th>PRICE</th>
+                    <th style="text-align: center;">QUANTITY</th>
+                    <th>TOTAL</th>
+                    <th style="text-align: center;">REMOVE</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="thumbnail-img">
+                      <a href="#">
+                        <img
+                          class="img-fluid"
+                          src="images/img-pro-07.jpg"
+                          alt=""
+                        />
+                      </a>
+                    </td>
+                    <td class="name-pr">
+                      <a href="#"> Noodles </a>
+                    </td>
+                    <td class="price-pr">
+                      <p>₹ 40</p>
+                    </td>
+                    <td class="quantity-box">
+                      <input
+                        type="number"
+                        size="4"
+                        value="2"
+                        min="0"
+                        step="1"
+                        class="c-input-text qty text"
+                      />
+                    </td>
+                    <td class="total-pr">
+                      <p>₹ 80</p>
+                    </td>
+                    <td class="remove-pr">
+                      <a href="#">
+                        <i class="fas fa-times"></i>
+                      </a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="thumbnail-img">
+                      <a href="#">
+                        <img
+                          class="img-fluid"
+                          src="images/img-pro-01.jpg"
+                          alt=""
+                        />
+                      </a>
+                    </td>
+                    <td class="name-pr">
+                      <a href="#"> Coke </a>
+                    </td>
+                    <td class="price-pr">
+                      <p>₹ 25</p>
+                    </td>
+                    <td class="quantity-box">
+                      <input
+                        type="number"
+                        size="4"
+                        value="2"
+                        min="0"
+                        step="1"
+                        class="c-input-text qty text"
+                      />
+                    </td>
+                    <td class="total-pr">
+                      <p>₹ 50</p>
+                    </td>
+                    <td class="remove-pr">
+                      <a href="#">
+                        <i class="fas fa-times"></i>
+                      </a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="thumbnail-img">
+                      <a href="#">
+                        <img
+                          class="img-fluid"
+                          src="images/img-pro-06.jpg"
+                          alt=""
+                        />
+                      </a>
+                    </td>
+                    <td class="name-pr">
+                      <a href="#"> Ice Cream </a>
+                    </td>
+                    <td class="price-pr">
+                      <p>₹ 150</p>
+                    </td>
+                    <td class="quantity-box">
+                      <input
+                        type="number"
+                        size="4"
+                        value="1"
+                        min="0"
+                        step="1"
+                        class="c-input-text qty text"
+                      />
+                    </td>
+                    <td class="total-pr">
+                      <p>₹ 150</p>
+                    </td>
+                    <td class="remove-pr">
+                      <a href="#">
+                        <i class="fas fa-times""></i>
+                      </a>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+
+        <div class="row my-5" style="justify-content: center;">
+            <div class="update-box">
+              <input value="Update Cart" type="submit" />
+            </div>
+        </div>
+
+        <div class="row my-5">
+          <div class="col-lg-8 col-sm-12"></div>
+          <div class="col-lg-4 col-sm-12">
+            <div class="order-box">
+              <h3>ORDER SUMMARY</h3>
+              <div class="d-flex">
+                <h4>Sub Total</h4>
+                <div class="ml-auto font-weight-bold">₹ 280</div>
+              </div>
+              <div class="d-flex">
+                <h4>Discount</h4>
+                <div class="ml-auto font-weight-bold">₹ 440</div>
+              </div>
+              <hr class="my-1" />
+              <div class="d-flex">
+                <h4>Shipping Cost</h4>
+                <div class="ml-auto font-weight-bold">Free</div>
+              </div>
+              <hr />
+              <div class="d-flex gr-total">
+                <h5>Grand Total</h5>
+                <div class="ml-auto h5">₹ 280</div>
+              </div>
+              <hr />
+            </div>
+          </div>
+          <div class="col-12 d-flex shopping-box">
+            <a href="checkout.html" class="ml-auto btn hvr-hover">Checkout</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Cart -->
+
+    <!-- Start Footer  -->
+    <footer>
+      <div class="footer-main">
+        <div class="container">
+          <div class="row">
+          <hr />
+          <div class="row">
+            <div class="col-lg-4 col-md-12 col-sm-12">
+              <div class="footer-widget">
+                <h4>About BestBy</h4>
+                <p>
+                  BestBy is an online platform that serves as a platform between the sellers and the consumers providing 
+                  a dynamic pricing for perishable food with respect to their shelf life. It lets the retailer dynamically 
+                  match the prices of perishable food to their value.
+                </p>
+                <p>
+                  BestBy is aimed at minimising the food wastage due to expiry by giving more exposure to the amazing 
+                  offers provided sellers to the customers. 
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-12 col-sm-12">
+              <div class="footer-link">
+                <h4>Information</h4>
+                <ul>
+                  <li><a href="about.html">About Us</a></li>
+                  <li><a href="#">Customer Service</a></li>
+                  <li><a href="#">Our Sitemap</a></li>
+                  <li><a href="#">Terms &amp; Conditions</a></li>
+                  <li><a href="#">Privacy Policy</a></li>
+                  <li><a href="#">Delivery Information</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-12 col-sm-12">
+              <div class="footer-link ">
+                <h4>Social Media</h4>
+                
+                <p style="color: white;">Reach out to us on</p>
+                <br>
+              </div>
+                <div class="footer-top-box" style="align-items: center;">
+                <ul>
+                  <li>
+                    <a href="#"
+                      ><i class="fab fa-facebook" aria-hidden="true"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><i class="fab fa-twitter" aria-hidden="true"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><i class="fab fa-linkedin" aria-hidden="true"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-rss" aria-hidden="true"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><i class="fab fa-pinterest-p" aria-hidden="true"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><i class="fab fa-whatsapp" aria-hidden="true"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="footer-link-contact">
+                <ul>
+                  <li>
+                    <p>
+                      <i class="fas fa-envelope"></i>Email:
+                      <a href="mailto:harriesh9298@gmail.com"
+                        >bestby@gmail.com</a
+                      >
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      <i class="fas fa-phone-square"></i>Phone:
+                      <a href="tel:+919940724657">+91 99407 24657</a>
+                    </p>
+                  </li>
+                </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- End Footer  -->
+
+    <a href="#" id="back-to-top" title="Back to top" style="display: none"
+      ><br><br>&uarr;</a
+    >
+
+    <!-- ALL JS FILES -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- ALL PLUGINS -->
+    <script src="js/jquery.superslides.min.js"></script>
+    <script src="js/bootstrap-select.js"></script>
+    <script src="js/inewsticker.js"></script>
+    <script src="js/bootsnav.js."></script>
+    <script src="js/images-loded.min.js"></script>
+    <script src="js/isotope.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/baguetteBox.min.js"></script>
+    <script src="js/form-validator.min.js"></script>
+    <script src="js/contact-form-script.js"></script>
+    <script src="js/custom.js"></script>
+  </body>
+</html>
