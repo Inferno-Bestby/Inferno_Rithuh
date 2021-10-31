@@ -1,6 +1,5 @@
 # Inferno_Rithuh
-Smart City Hackathon - Bestby
-BESTBY
+Smart City Hackathon - BESTBY
 
 Developed by:
 Banda Charith Sai,
