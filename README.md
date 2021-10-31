@@ -3,9 +3,9 @@ Smart City Hackathon - Bestby
 BESTBY
 
 Developed by:
-Banda Charith Sai
-Harriesh R A
-Malavika Vinodkumar
+Banda Charith Sai,
+Harriesh R A,
+Malavika Vinodkumar,
 Rithuh Subhakkrith S
 
 
